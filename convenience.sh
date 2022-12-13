@@ -13,3 +13,4 @@ sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/
 sudo mv resources/nasa-black.png /usr/share/backgrounds/
 gsettings set org.gnome.desktop.background picture-uri file:////usr/share/backgrounds/nasa-black.png
 gsettings set org.gnome.shell.extensions.user-theme  'Flat-Remix-Miami-Dark-fullPanel'
+#there's a lot more gnome settings the user will have to do themselves
