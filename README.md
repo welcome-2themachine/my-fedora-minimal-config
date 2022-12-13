@@ -50,7 +50,7 @@ Scripts are builder for user: mechanicus - change all instances of this if you w
 	- GTK Title Bar (https://extensions.gnome.org/extension/1732/gtk-title-bar/) set to both
 	- Native Window Placement (https://extensions.gnome.org/extension/18/native-window-placement/)
 	- Simple System Monitor (https://extensions.gnome.org/extension/4506/simple-system-monitor/)
-	- Volume Mixer https://extensions.gnome.org/extension/858/volume-mixer/
+	- Volume Mixer https://extensions.gnome.org/extension/5446/quick-settings-tweaker/
 		- CPU: 
 		- Memory: 
 		- Download: 
