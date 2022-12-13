@@ -1,7 +1,6 @@
 #! /bin/bash
 
-curl -fsSl https://pkg.cloudflare.com/cloudflared-ascii.repo /
- | sudo tee /etc/yum.repos.d/cloudflared.repo
+curl -fsSl https://pkg.cloudflare.com/cloudflared-ascii.repo | sudo tee /etc/yum.repos.d/cloudflared.repo
 
 #sudo dnf -y install dnf-plugins-core
 sudo dnf config-manager \
