@@ -39,7 +39,7 @@ baobab \
 cloudflared \
 docker-ce \
 docker-ce-cli \
-cointainerd.io \
+containerd.io \
 docker-compose-plugin \
 wget \
 unzip \
