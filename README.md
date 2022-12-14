@@ -80,3 +80,6 @@ Scripts are builder for user: mechanicus - change all instances of this if you w
 	- Chrome
 	- VS Code
 4. Sign in to everything (chrome, discord, signal, code etc)
+5. Fix grub2
+	- Edit /etx/default/grub
+	- change GRUB_TIMEOUT=5 to GRUB_TIMEOUT=0
