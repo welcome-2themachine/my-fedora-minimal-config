@@ -2,11 +2,10 @@
 
 chmod +x *.sh
 #enables this script to run each subscrip in the correct sequence
-
-./dnf-install.sh
-./flatpak-install.sh
 ./nvidia-drivers.sh
 ./power-updates.sh
+./dnf-install.sh
+./flatpak-install.sh
 ./convenience.sh
 
 sudo systemctl enable gdm
