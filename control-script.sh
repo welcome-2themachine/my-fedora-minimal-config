@@ -12,6 +12,7 @@ chmod +x *.sh
 sudo systemctl enable gdm
 sudo systemctl set-default graphical.target
 
+sudo dnf install plymouth-theme-spinner
 sudo plymouth-set-default-theme bgrt
 sudo dracut -f
 reboot

@@ -41,7 +41,6 @@ docker-ce \
 docker-ce-cli \
 cointainerd.io \
 docker-compose-plugin \
-plymouth-theme-spinner \
 wget \
 unzip \
 vulkan \
