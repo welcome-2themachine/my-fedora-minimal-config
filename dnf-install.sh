@@ -56,4 +56,5 @@ VirtualBox \
 firefox \
 nmap \
 code \
+neofetch \
 cowsay
