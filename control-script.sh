@@ -9,6 +9,9 @@ chmod +x *.sh
 ./power-updates.sh
 ./convenience.sh
 
-sudo plymout-set-default-theme bgrt
+sudo systemctl enable gdm
+sudo systemctl set-default graphical.target
+
+sudo plymouth-set-default-theme bgrt
 sudo dracut -f
 reboot
