@@ -56,7 +56,7 @@ htop \
 btop \
 steam \
 libreoffice \
-virtualbox \
+VirtualBox \
 firefox \
 nmap \
 code \
