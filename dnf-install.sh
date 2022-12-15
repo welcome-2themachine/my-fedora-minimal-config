@@ -23,7 +23,9 @@ gnome-software \
 gnome-tweaks \
 gnome-themes-extra \
 gnome-extensions-app \
+gnome-shell-extension-user-theme \
 gnome-shell-theme-flat-remix \
+gnome-browser-connector \
 git \
 ufw \
 tlp \

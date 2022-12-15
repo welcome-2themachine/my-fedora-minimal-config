@@ -3,7 +3,8 @@
 #this script is meant to move all the .confs around and make stuff look pretty
 
 mkdir ~/.conf/neofetch/
-mv resoureces/neofetch_config.conf /home/mechanicus/.conf/neofetch/config.conf
+mkdir ~/.local/share/fonts
+mv resources/neofetch_config.conf /home/mechanicus/.config/neofetch/config.conf
 mv resources/fonts/*.ttf home/mechanicus/.local/share/fonts/
 mv resources/bashrc /home/mechanicus/.bashrc
 
@@ -12,6 +13,5 @@ sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/
 #set the desktop background
 sudo mv resources/nasa-black.png /usr/share/backgrounds/
 gsettings set org.gnome.desktop.background picture-uri file:////usr/share/backgrounds/nasa-black.png
-gsettings set org.gnome.shell.extensions.user-theme  'Flat-Remix-Miami-Dark-fullPanel'
 #there's a lot more gnome settings the user will have to do themselves
 gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
