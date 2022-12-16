@@ -16,7 +16,8 @@ dnf check-update
 sudo dnf install \
 nano \
 gnome-shell \
-gnome-terminal \
+#gnome-terminal \
+kitty \
 gnome-calculator \
 gnome-disk-utility \
 gnome-software \
