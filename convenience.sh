@@ -5,9 +5,9 @@
 mkdir ~/.config/neofetch/
 mkdir ~/.local/share/fonts
 mkdir ~/.config/poshthemes
-mv resources/neofetch_config.conf /home/mechanicus/.config/neofetch/config.conf
-mv resources/fonts/*.ttf home/mechanicus/.local/share/fonts/
-mv resources/bashrc /home/mechanicus/.bashrc
+mv resources/neofetch_config.conf ~/.config/neofetch/config.conf
+mv resources/fonts/*.ttf ~/.local/share/fonts/
+mv resources/.bashrc ~/.bashrc
 
 sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64 -O /bin/oh-my-posh
 sudo chmod +x /bin/oh-my-posh
