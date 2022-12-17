@@ -1,0 +1,22 @@
+[:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+audible-bell=true
+background-color='rgb(0,0,0)'
+background-transparency-percent=48
+bold-color-same-as-fg=false
+bold-is-bright=true
+cursor-background-color='rgb(185,0,167)'
+cursor-colors-set=true
+cursor-foreground-color='rgb(46,160,160)'
+default-size-columns=180
+default-size-rows=60
+font='agave Nerd Font 10'
+foreground-color='rgb(255,255,255)'
+highlight-background-color='rgb(46,160,160)'
+highlight-colors-set=true
+highlight-foreground-color='rgb(185,0,167)'
+login-shell=false
+use-custom-command=false
+use-system-font=false
+use-theme-colors=false
+use-transparent-background=true
+visible-name='Default'
