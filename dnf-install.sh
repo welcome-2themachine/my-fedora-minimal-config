@@ -28,6 +28,7 @@ gnome-extensions-app \
 gnome-shell-extension-user-theme \
 gnome-shell-theme-flat-remix \
 gnome-browser-connector \
+google-noto-emoji-color-fonts \
 git \
 ufw \
 tlp \
