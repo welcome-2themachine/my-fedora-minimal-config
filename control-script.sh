@@ -14,4 +14,4 @@ sudo systemctl set-default graphical.target
 sudo dnf install plymouth-theme-spinner
 sudo plymouth-set-default-theme bgrt
 sudo dracut -f
-reboot
+echo "Installation complete - reboot when ready"
