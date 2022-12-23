@@ -62,4 +62,5 @@ firefox \
 nmap \
 code \
 neofetch \
+snapd \
 cowsay
