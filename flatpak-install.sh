@@ -10,3 +10,5 @@ org.signal.Signal \
 org.videolan.VLC \
 com.brave.Browser \
 com.parsecgaming.parsec
+
+snap install nordpass
