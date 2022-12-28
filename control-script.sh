@@ -2,7 +2,6 @@
 
 chmod +x *.sh
 #enables this script to run each subscrip in the correct sequence
-./nvidia-drivers.sh
 ./dnf-install.sh
 ./flatpak-install.sh
 ./power-updates.sh
