@@ -9,6 +9,9 @@ flatpak install flathub \
 org.signal.Signal \
 org.videolan.VLC \
 com.brave.Browser \
-com.parsecgaming.parsec
+com.parsecgaming.parsec \
+com.google.Chome \
+com.valvesoftware.Steam \
+org.libreoffice.LibreOffice
 
 snap install nordpass

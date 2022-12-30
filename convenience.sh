@@ -21,6 +21,6 @@ gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffe
 
 sudo dnf remove gnome-tour firewalld
 sudo ufw enable
-dconf load /org/gnome/terminal/legacy/profiles:/ < resources/gnome-terminal/profile.dconf
+dconf load /org/gnome/terminal/legacy/profiles:/ < resources/profile.dconf
 # dconf dump /org/gnome/terminal/legacy/profiles:/ > gnome-terminal-profiles.dconf are there more dconf pieces I want?
 

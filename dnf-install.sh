@@ -55,9 +55,7 @@ netcat \
 lolcat \
 htop \
 btop \
-steam \
-libreoffice \
-VirtualBox \
+VirtualBox.x86_64 \
 firefox \
 nmap \
 code \
