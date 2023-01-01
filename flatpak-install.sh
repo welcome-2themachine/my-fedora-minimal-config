@@ -10,8 +10,8 @@ org.signal.Signal \
 org.videolan.VLC \
 com.brave.Browser \
 com.parsecgaming.parsec \
-com.google.Chrome \
+#com.google.Chrome \ borked for some reason
 com.valvesoftware.Steam \
 org.libreoffice.LibreOffice
 
-snap install nordpass
+sudo snap install nordpass
