@@ -10,7 +10,7 @@ org.signal.Signal \
 org.videolan.VLC \
 com.brave.Browser \
 com.parsecgaming.parsec \
-#com.google.Chrome \ borked for some reason
+com.google.Chrome \
 com.valvesoftware.Steam \
 org.libreoffice.LibreOffice
 
