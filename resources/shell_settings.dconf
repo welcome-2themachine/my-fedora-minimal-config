@@ -1,0 +1,44 @@
+[dash-to-dock-pop]
+apply-custom-theme=false
+autohide-in-fullscreen=true
+background-color='rgb(0,0,0)'
+background-opacity=0.80000000000000004
+border-radius=30
+click-action='launch'
+custom-background-color=true
+custom-theme-shrink=true
+dash-max-icon-size=40
+dock-alignment='CENTRE'
+dock-position='BOTTOM'
+floating-margin=4
+height-fraction=0.90000000000000002
+intellihide-mode='ALL_WINDOWS'
+preferred-monitor=-2
+preferred-monitor-by-connector='eDP-1'
+
+[gnome-ui-tune]
+increase-thumbnails-size='100%'
+
+[quick-settings-tweaks]
+list-buttons='[{"name":"Clutter_Actor","label":null,"visible":true},{"name":"SystemItem","label":null,"visible":true},{"name":"OutputStreamSlider","label":null,"visible":true},{"name":"InputStreamSlider","label":null,"visible":false},{"name":"St_BoxLayout","label":null,"visible":true},{"name":"BrightnessItem","label":null,"visible":true},{"name":"NMWiredToggle","label":null,"visible":false},{"name":"NMWirelessToggle","label":"Routers of Rohan","visible":true},{"name":"NMModemToggle","label":null,"visible":false},{"name":"NMBluetoothToggle","label":null,"visible":false},{"name":"NMVpnToggle","label":null,"visible":false},{"name":"BluetoothToggle","label":"Bluetooth","visible":true},{"name":"PowerProfilesToggle","label":null,"visible":false},{"name":"NightLightToggle","label":"Night Light","visible":true},{"name":"DarkModeToggle","label":"Dark Mode","visible":true},{"name":"RfkillToggle","label":"Airplane Mode","visible":true},{"name":"RotationToggle","label":"Auto Rotate","visible":false},{"name":"DndQuickToogle","label":"Do Not Disturb","visible":true},{"name":"MediaSection","label":null,"visible":false},{"name":"Notifications","label":null,"visible":false}]'
+
+[simple-system-monitor]
+cpu-usage-text=''
+download-speed-text=''
+extension-position='right'
+font-family='MesloLGL Nerd Font Mono'
+font-size=' 14'
+font-weight=100
+is-cpu-usage-enable=true
+is-download-speed-enable=true
+is-memory-usage-enable=true
+is-upload-speed-enable=true
+item-separator=' |'
+memory-usage-text=''
+refresh-interval=1
+show-extra-spaces=false
+show-percent-sign=true
+upload-speed-text=''
+
+[user-theme]
+name='Flat-Remix-Miami-Dark-fullPanel'
