@@ -78,8 +78,10 @@ Scripts are builder for user: mechanicus - change all instances of this if you w
 	- Windows: Center New Windows
 3. Other Apps
 	- Chrome
-	- VS Code
 4. Sign in to everything (chrome, discord, signal, code etc)
 5. Fix grub2
-	- Edit /etx/default/grub
+	- Edit /etc/default/grub
 	- change GRUB_TIMEOUT=5 to GRUB_TIMEOUT=0
+6. Fix the lvm
+	- lvextend -l +100%FREE /dev/fedora/root
+	- xfs_growfs /dev/fedora/root

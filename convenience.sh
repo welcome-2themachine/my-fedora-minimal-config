@@ -2,14 +2,19 @@
 
 #this script is meant to move all the .confs around and make stuff look pretty
 
-mkdir ~/.config/neofetch/
+sudo lvextend -l +100% /dev/fedora/root
+sudo xfs_growfs /dev/fedora/root
+#this fixes the issue of only having 15G for your root drive
+
+neofetch
 mkdir ~/.local/share/fonts
 mkdir ~/.config/poshthemes
 mv resources/neofetch_config.conf ~/.config/neofetch/config.conf
 mv resources/fonts/*.ttf ~/.local/share/fonts/
 mv resources/.bashrc ~/.bashrc
 mv resources/bubblesextra.omp.json ~/.config/poshthemes/
-
+neofetch
+#this is basically a print statement
 sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64 -O /bin/oh-my-posh
 sudo chmod +x /bin/oh-my-posh
 
