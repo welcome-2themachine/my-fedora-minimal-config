@@ -69,4 +69,5 @@ gvfs-smb \
 gnome-vfs2-smb \
 jq \
 discord \
+lshw \
 cowsay
