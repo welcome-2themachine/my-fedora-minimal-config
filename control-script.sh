@@ -2,11 +2,12 @@
 
 chmod +x *.sh
 #enables this script to run each subscrip in the correct sequence
-./nvidia-drivers.sh
+
 ./dnf-install.sh
 ./flatpak-install.sh
 ./power-updates.sh
 ./convenience.sh
+./nvidia-drivers.sh
 
 sudo systemctl enable gdm
 sudo systemctl set-default graphical.target
