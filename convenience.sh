@@ -2,8 +2,8 @@
 
 #this script is meant to move all the .confs around and make stuff look pretty
 
-sudo lvextend -l +100% /dev/fedora/root
-sudo xfs_growfs /dev/fedora/root
+sudo lvextend /dev/fedora/root -l+100%FREE
+sudo xfs_growfs /
 #this fixes the issue of only having 15G for your root drive
 
 neofetch
@@ -29,3 +29,6 @@ sudo ufw enable
 dconf load /org/gnome/terminal/legacy/profiles:/ < resources/profile.dconf
 # dconf dump /org/gnome/terminal/legacy/profiles:/ > gnome-terminal-profiles.dconf are there more dconf pieces I want?
 
+#nordvpn
+sh <(wget -qO - https://downloads.nordcdn.com/apps/linux/install.sh)
+sudo usermod -aG nordvpn mechanicus
