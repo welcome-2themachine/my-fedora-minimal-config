@@ -62,7 +62,6 @@ firefox \
 nmap \
 code \
 neofetch \
-snapd \
 gh \
 gvfs \
 gvfs-smb \

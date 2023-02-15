@@ -13,5 +13,5 @@ com.parsecgaming.parsec \
 com.google.Chrome \
 com.valvesoftware.Steam \
 org.libreoffice.LibreOffice
+com.nordpass.NordPass
 
-sudo snap install nordpass
