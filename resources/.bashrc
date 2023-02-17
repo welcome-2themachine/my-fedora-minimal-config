@@ -29,8 +29,8 @@ shopt -s checkwinsize
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias wake-bastion='ssh ubserv wake-bastion'
-alias update="sudo dnf update && neofetch"
+alias wake-bastion='ssh ssh.nobodyhome.dev wake-bastion'
+alias update="sudo dnf update && sudo flatpak update && neofetch"
 alias gfx-hybrid="supergfxctl -m hybrid"
 alias gfx-integrated="supergfxctl -m integrated"
 
