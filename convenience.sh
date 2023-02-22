@@ -32,3 +32,7 @@ dconf load /org/gnome/terminal/legacy/profiles:/ < resources/profile.dconf
 #nordvpn
 sh <(wget -qO - https://downloads.nordcdn.com/apps/linux/install.sh)
 sudo usermod -aG nordvpn mechanicus
+
+cd ~/Code
+git clone https://github.com/atar-axis/xpadneo.git
+sudo ./home/mechanicus/Code/xpadneo/install.sh
