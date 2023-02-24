@@ -34,6 +34,7 @@ google-noto-emoji-color-fonts \
 git \
 ufw \
 tlp \
+cockpit \
 powertop \
 nautilus \
 gimp \
