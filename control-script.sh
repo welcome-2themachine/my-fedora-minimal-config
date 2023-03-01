@@ -7,6 +7,7 @@ chmod +x *.sh
 ./flatpak-install.sh
 ./snap-isntall.sh
 ./power-updates.sh
+./gnome-extensions.sh
 ./convenience.sh
 ./nvidia-drivers.sh
 
