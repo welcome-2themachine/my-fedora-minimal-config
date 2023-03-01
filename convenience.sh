@@ -12,7 +12,7 @@ mkdir ~/.config/poshthemes
 mv resources/neofetch_config.conf ~/.config/neofetch/config.conf
 mv resources/fonts/*.ttf ~/.local/share/fonts/
 mv resources/.bashrc ~/.bashrc
-mv resources/bubblesextra.omp.json ~/.config/poshthemes/
+mv resources/poshthemes ~/.config/poshthemes
 neofetch
 #this is basically a print statement
 sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64 -O /bin/oh-my-posh
