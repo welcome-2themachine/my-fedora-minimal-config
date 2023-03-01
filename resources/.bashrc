@@ -30,7 +30,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias wake-bastion='ssh ssh.nobodyhome.dev wake-bastion'
-alias update="sudo dnf update && sudo flatpak update && neofetch"
+alias update="sudo dnf update && sudo flatpak update && sudo snap refresh && neofetch"
 alias gfx-hybrid="supergfxctl -m hybrid"
 alias gfx-integrated="supergfxctl -m integrated"
 

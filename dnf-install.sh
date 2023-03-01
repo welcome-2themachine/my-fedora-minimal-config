@@ -17,6 +17,7 @@ dnf check-update
 
 sudo dnf install \
 nano \
+snapd \
 gnome-shell \
 gnome-terminal \
 kitty \
