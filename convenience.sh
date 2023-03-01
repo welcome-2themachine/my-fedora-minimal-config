@@ -35,4 +35,4 @@ sudo usermod -aG nordvpn mechanicus
 
 cd ~/Code
 git clone https://github.com/atar-axis/xpadneo.git
-sudo ./home/mechanicus/Code/xpadneo/install.sh
+sudo $(pwd)/xpadneo/install.sh
