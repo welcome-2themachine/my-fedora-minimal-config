@@ -5,6 +5,7 @@ chmod +x *.sh
 
 ./dnf-install.sh
 ./flatpak-install.sh
+./snap-isntall.sh
 ./power-updates.sh
 ./convenience.sh
 ./nvidia-drivers.sh
