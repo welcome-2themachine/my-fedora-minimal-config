@@ -67,6 +67,7 @@ gh \
 gvfs \
 gvfs-smb \
 gnome-vfs2-smb \
+lm_sensors \
 jq \
 discord \
 lshw \
