@@ -68,6 +68,7 @@ gvfs \
 gvfs-smb \
 gnome-vfs2-smb \
 lm_sensors \
+iperf3 \
 jq \
 discord \
 lshw \
