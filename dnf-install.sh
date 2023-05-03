@@ -73,4 +73,11 @@ iperf3 \
 jq \
 discord \
 lshw \
+# below installed to get cac readers to work
+pcsc-lite \
+pcsc-tools \
+pcsc-perl \
+pcsc-lite-ccid \
+opensc \
+# above installed to get cac readers to work
 cowsay
