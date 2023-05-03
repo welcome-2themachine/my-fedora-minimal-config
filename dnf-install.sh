@@ -20,6 +20,7 @@ nano \
 gnome-shell \
 gnome-terminal \
 kitty \
+steam-devices\
 kitty-bash-integration \
 gnome-calculator \
 gnome-disk-utility \
@@ -70,4 +71,11 @@ gnome-vfs2-smb \
 jq \
 discord \
 lshw \
+# below installed to get cac readers to work
+pcsc-lite \
+pcsc-tools \
+pcsc-perl \
+pcsc-lite-ccid \
+opensc \
+# above installed to get cac readers to work
 cowsay

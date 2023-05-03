@@ -36,3 +36,6 @@ sudo usermod -aG nordvpn mechanicus
 cd ~/Code
 git clone https://github.com/atar-axis/xpadneo.git
 sudo $(pwd)/xpadneo/install.sh
+
+#for cac readers
+sudo systemctl enable pcscd
