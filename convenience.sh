@@ -39,3 +39,5 @@ sudo $(pwd)/xpadneo/install.sh
 
 #for cac readers
 sudo systemctl enable pcscd
+
+mv resources/unclass-certificates_pkcs7_v5-6_dod.zip ~/Downloads
