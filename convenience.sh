@@ -20,8 +20,8 @@ sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/
 sudo chmod +x /bin/oh-my-posh
 
 #set the desktop background
-sudo mv resources/nasa-black.png /usr/share/backgrounds/
-gsettings set org.gnome.desktop.background picture-uri file:////usr/share/backgrounds/nasa-black.png
+sudo mv resources/backgrounds/* /usr/share/backgrounds/
+gsettings set org.gnome.desktop.background picture-uri file:////usr/share/backgrounds/nasa_black.png
 #there's a lot more gnome settings the user will have to do themselves
 gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
 
