@@ -19,7 +19,6 @@ sudo dnf install \
 nano \
 gnome-shell \
 gnome-terminal \
-kitty \
 steam-devices\
 kitty-bash-integration \
 gnome-calculator \
