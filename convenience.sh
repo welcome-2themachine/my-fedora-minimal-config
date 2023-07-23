@@ -10,12 +10,14 @@ neofetch
 mkdir ~/.local/share/fonts
 mkdir ~/.config/poshthemes
 mkdir ~/.ssh
+mkdir ~/.config/tmux
 mv resources/neofetch_config.conf ~/.config/neofetch/config.conf
 mv resources/fonts/*.ttf ~/.local/share/fonts/
 mv resources/.bashrc ~/.bashrc
 mv resources/poshthemes ~/.config/poshthemes
 mv resources/getip /usr/bin/
 mv resources/ssh.config ~/.ssh/config
+mv resources/tmux.conf ~/.config/tmux/tmux.conf
 neofetch
 #this is basically a print statement
 sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64 -O /bin/oh-my-posh
