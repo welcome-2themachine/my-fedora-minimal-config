@@ -31,14 +31,7 @@ alias la='ls -A'
 alias l='ls -CF'
 alias wake-bastion='ssh ssh.nobodyhome.dev wake-bastion'
 alias update="sudo dnf update && sudo flatpak update && sudo snap refresh && neofetch"
-alias gfx-hybrid="supergfxctl -m hybrid"
-alias gfx-integrated="supergfxctl -m integrated"
-
-#eval "$(oh-my-posh --init --shell bash --config ~/.config/poshthemes/night-owl.omp.json)"
-#eval "$(oh-my-posh --init --shell bash --config ~/.config/poshthemes/space.omp.json)"
-#eval "$(oh-my-posh --init --shell bash --config ~/.config/poshthemes/bubbles.omp.json)"
-eval "$(oh-my-posh --init --shell bash --config ~/.config/poshthemes/bubblesextra.omp.json)"
-#eval "$(oh-my-posh --init --shell bash --config ~/.config/poshthemes/clean-detailed.omp.json)"
-
+alias update-posh="curl -s https://ohmyposh.dev/install.sh | sudo bash -s"
+eval "$(oh-my-posh --init --shell bash --config ~/.config/poshthemes/catppuccin.omp.json)"
 
 unset rc

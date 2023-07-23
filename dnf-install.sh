@@ -71,6 +71,7 @@ lm_sensors \
 iperf3 \
 jq \
 discord \
+tmux \
 lshw \
 # below installed to get cac readers to work
 pcsc-lite \

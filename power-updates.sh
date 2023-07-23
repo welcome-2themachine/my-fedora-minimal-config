@@ -1,10 +1,7 @@
 #! /bin/bash
 
-sudo dnf copr enable lukenukem/asus-linux
-sudo dnf install supergfxctl
+
 sudo dnf update --refresh
-sudo systemctl enable supergfxd.service --now
-supergfxctl -m integrated
 
 sudo cp resources/tlp.conf /etc/tlp.conf
 
