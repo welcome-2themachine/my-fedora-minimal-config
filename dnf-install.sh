@@ -71,6 +71,7 @@ lm_sensors \
 iperf3 \
 jq \
 discord \
+gnome-text-editor \
 tmux \
 lshw \
 # below installed to get cac readers to work
