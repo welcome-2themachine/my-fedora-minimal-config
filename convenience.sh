@@ -7,10 +7,7 @@ sudo xfs_growfs /
 #this fixes the issue of only having 15G for your root drive
 
 neofetch
-mkdir ~/.local/share/fonts
-mkdir ~/.config/poshthemes
-mkdir ~/.ssh
-mkdir ~/.config/tmux
+mkdir -p ~/.local/share/fonts ~/.ssh ~/.config/{tmux,poshthemes}
 mv resources/neofetch_config.conf ~/.config/neofetch/config.conf
 mv resources/fonts/*.ttf ~/.local/share/fonts/
 mv resources/.bashrc ~/.bashrc
@@ -39,7 +36,7 @@ dconf load /org/gnome/terminal/legacy/profiles:/ < resources/profile.dconf
 # dconf dump /org/gnome/terminal/legacy/profiles:/ > gnome-terminal-profiles.dconf are there more dconf pieces I want?
 
 #nordvpn
-sh <(wget -qO - https://downloads.nordcdn.com/apps/linux/install.sh)
+sudo sh <(wget -qO - https://downloads.nordcdn.com/apps/linux/install.sh)
 sudo usermod -aG nordvpn mechanicus
 
 #xbox controller
@@ -50,4 +47,5 @@ sudo $(pwd)/xpadneo/install.sh
 #for cac readers
 sudo systemctl enable pcscd
 
+#these need to be added to firefox by the user
 mv resources/unclass-certificates_pkcs7_v5-6_dod.zip ~/Downloads
